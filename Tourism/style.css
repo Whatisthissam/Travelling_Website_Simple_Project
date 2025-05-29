@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: url('https://images2.alphacoders.com/814/thumb-1920-814134.jpg') center/cover no-repeat;
+    height: 90vh;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 4rem;
+    margin-bottom: 410px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#p1 {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+nav {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    text-align: center;
+
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+section {
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.gallery,
+.destinations {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.gallery img,
+.destination-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.destination-card {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .contact-card {
+    background: url('https://i.pinimg.com/736x/2c/e8/96/2ce896ff8ad51e5f1609c13b33ca84c9.jpg') center/cover;
+    flex: 1 1 350px;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    backdrop-filter: brightness(0.8);
+  }
+
+  .contact-card h3 {
+    margin-bottom: 1px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  .contact-card p {
+    line-height: 1.4;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    flex: 1 1 350px;
+  }
+
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .contact-form button:hover {
+    background-color: #E76F51;
+  }
+
+
+footer {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 30px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
